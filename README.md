@@ -9,13 +9,13 @@ It eliminates the need to repeat the same query across different AI tools, savin
 
 - Ask once, get responses from multiple AI models
 
-#### - Integrated models:
+- Integrated models:
 
-          - Mistral 7B Instruct
+    - Mistral 7B Instruct
 
-          - Gemini (Gemma 3-27B)
+    - Gemini (Gemma 3-27B)
 
-          - DeepSeek R1T2 Chimera
+    - DeepSeek R1T2 Chimera
 
 - FastAPI backend for orchestration
 
