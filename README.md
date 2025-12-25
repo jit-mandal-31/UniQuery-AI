@@ -4,6 +4,17 @@ UniQuery AI is a unified multi-LLM comparison platform that allows users to ask 
 It eliminates the need to repeat the same query across different AI tools, saving time and improving productivity.
 
 ---
+## 🎯 Objectives
+
+- Design a single platform integrating multiple AI models
+
+- Run one query across all AI models simultaneously
+
+- Display and compare responses in one interface
+
+- Improve user experience and save time
+
+---
 
 ## ✨ Key Features
 
@@ -89,7 +100,39 @@ It eliminates the need to repeat the same query across different AI tools, savin
 
 ---
 
+## 🖥️ User Interface 
+UniQuery AI provides a ChatGPT-style interface built using Streamlit.
+
+UI Highlights:
+    - Sidebar with New Chat and Previous Chats
+    - Single query input box with inline Edit option
+    - Side-by-side comparison of responses from multiple AI models
+    - Download Answer button for each model
+
+Screenshot:
+![WhatsApp Image 2025-12-25 at 21 31 44_f7385fb2](https://github.com/user-attachments/assets/47dbb729-23b7-4025-997c-ef31cabe9af7)
+
+---
+## ⚙️ Environment Setup
+
+Follow the steps below to set up the project locally.
+
+### 1️⃣ Create Virtual Environment
+```
+python -m venv venv
+```
+### 2️⃣ Activate Virtual Environment
+```
+venv\Scripts\activate
+```
+### 3️⃣ Set Environment Variables
+
+Create a .env file in the project root directory:
+```
+OPENROUTER_API_KEY=your_openrouter_api_key
+```
 ## ▶️ How to Run the Project
+
 ### 1️⃣ Start Backend
 ```bash
 uvicorn main:app --reload
@@ -106,12 +149,7 @@ Backend runs at:
 ```
 http://localhost:8501
 ```
----
-## 🖥️ User Interface 
-
-![WhatsApp Image 2025-12-25 at 21 31 44_f7385fb2](https://github.com/user-attachments/assets/47dbb729-23b7-4025-997c-ef31cabe9af7)
-
----
+--- 
 
 ## 🎯 Use Cases
 
