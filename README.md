@@ -37,7 +37,7 @@ It eliminates the need to repeat the same query across different AI tools, savin
 
 # 🏗️ Architecture
 ### 🔹 High-Level Architecture Diagram
-
+```bash 
 +--------------------+
 |     User (UI)      |
 |  Streamlit App     |
@@ -63,20 +63,15 @@ It eliminates the need to repeat the same query across different AI tools, savin
 |  Mistral 7B |  | Gemini (Gemma)   |  | DeepSeek Chimera     |
 |   Instruct  |  | 3-27B IT Model   |  | R1T2 Model           |
 +-------------+  +------------------+  +----------------------+
-
+```
 ---
 
 # 🔄 System Flow
 
 1. User enters a query in the Streamlit UI
 2. Query is sent to FastAPI /ask endpoint
-
 3. Backend calls multiple LLMs using a single unified function
-
 4. OpenRouter routes requests to respective models
-
 5. Responses are collected and normalized
-
 6. Failed or unavailable responses are filtered
-
 7. Final results are displayed side-by-side in the UI
