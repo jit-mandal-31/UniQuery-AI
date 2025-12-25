@@ -1,32 +1,35 @@
 # UniQuery-AI
-### UniQuery AI is a unified multi-LLM comparison platform that allows users to ask one question and receive answers from multiple AI models simultaneously in a single interface.
-### It eliminates the need to repeat the same query across different AI tools, saving time and improving productivity.
+
+UniQuery AI is a unified multi-LLM comparison platform that allows users to ask one question and receive answers from multiple AI models simultaneously in a single interface.
+It eliminates the need to repeat the same query across different AI tools, saving time and improving productivity.
+
 ---
-✨ Key Features
 
-Ask once, get responses from multiple AI models
+## ✨ Key Features
 
-Integrated models:
+- Ask once, get responses from multiple AI models
 
-Mistral 7B Instruct
+#### - Integrated models:
 
-Gemini (Gemma 3-27B)
+          - Mistral 7B Instruct
 
-DeepSeek R1T2 Chimera
+          - Gemini (Gemma 3-27B)
 
-FastAPI backend for orchestration
+          - DeepSeek R1T2 Chimera
 
-Streamlit frontend with ChatGPT-style UI
+- FastAPI backend for orchestration
 
-Sidebar with:
+- Streamlit frontend with ChatGPT-style UI
 
-New Chat
+- Sidebar with:
 
-Previous Chats
+    - New Chat
 
-Inline query editing
+    - Previous Chats
 
-Download individual AI responses
+- Inline query editing
 
-Graceful handling of unavailable / rate-limited models
+- Download individual AI responses
+
+- Graceful handling of unavailable / rate-limited models
 
