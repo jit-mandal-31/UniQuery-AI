@@ -90,7 +90,7 @@ It eliminates the need to repeat the same query across different AI tools, savin
 ---
 
 ## ▶️ How to Run the Project
-#### 1️⃣ Start Backend
+### 1️⃣ Start Backend
 ```bash
 uvicorn main:app --reload
 ```
@@ -98,7 +98,7 @@ Backend runs at :
 ```
 http://127.0.0.1:8000
 ```
-#### 2️⃣ Start Frontend
+### 2️⃣ Start Frontend
 ```bash
 python -m streamlit run app.py
 ```
@@ -106,3 +106,30 @@ Backend runs at:
 ```
 http://localhost:8501
 ```
+---
+
+## 🎯 Use Cases
+
+1. Compare AI answers instantly
+2. Select the best response
+3. Academic research & learning
+4. AI tool benchmarking
+
+---
+
+## ⚠️ Important Note
+
+Free-tier AI models may sometimes be unavailable due to rate limits or provider restrictions.
+UniQuery AI handles this gracefully by filtering failed responses to maintain a clean user experience.
+
+---
+
+## 🚀 Future Enhancements
+
+- Best-answer ranking
+
+- User ratings
+
+- Response summarization
+
+- Persistent chat storage
