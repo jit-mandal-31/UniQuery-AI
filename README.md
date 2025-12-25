@@ -35,8 +35,8 @@ It eliminates the need to repeat the same query across different AI tools, savin
 
 ---
 
-# 🏗️ Architecture
-### 🔹 High-Level Architecture Diagram
+## 🏗️ Architecture
+#### 🔹 High-Level Architecture Diagram
 ```bash 
 +--------------------+
 |     User (UI)      |
@@ -66,7 +66,7 @@ It eliminates the need to repeat the same query across different AI tools, savin
 ```
 ---
 
-# 🔄 System Flow
+## 🔄 System Flow
 
 1. User enters a query in the Streamlit UI
 2. Query is sent to FastAPI /ask endpoint
@@ -75,3 +75,15 @@ It eliminates the need to repeat the same query across different AI tools, savin
 5. Responses are collected and normalized
 6. Failed or unavailable responses are filtered
 7. Final results are displayed side-by-side in the UI
+---
+
+## 🛠️ Tech Stack
+
+- Backend: FastAPI (Python)
+  
+- Frontend: Streamlit
+
+- LLM Gateway: OpenRouter
+
+- HTTP Clients: httpx, requests
+  
