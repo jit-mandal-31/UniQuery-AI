@@ -101,15 +101,21 @@ It eliminates the need to repeat the same query across different AI tools, savin
 ---
 
 ## 🖥️ User Interface 
+
 UniQuery AI provides a ChatGPT-style interface built using Streamlit.
 
 UI Highlights:
-    - Sidebar with New Chat and Previous Chats
-    - Single query input box with inline Edit option
-    - Side-by-side comparison of responses from multiple AI models
-    - Download Answer button for each model
+
+  - Sidebar with New Chat and Previous Chats
+
+  - Single query input box with inline Edit option
+    
+  - Side-by-side comparison of responses from multiple AI models
+    
+  - Download Answer button for each model
 
 Screenshot:
+
 ![WhatsApp Image 2025-12-25 at 21 31 44_f7385fb2](https://github.com/user-attachments/assets/47dbb729-23b7-4025-997c-ef31cabe9af7)
 
 ---
