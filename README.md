@@ -86,4 +86,23 @@ It eliminates the need to repeat the same query across different AI tools, savin
 - LLM Gateway: OpenRouter
 
 - HTTP Clients: httpx, requests
-  
+
+---
+
+## ▶️ How to Run the Project
+#### 1️⃣ Start Backend
+```bash
+uvicorn main:app --reload
+```
+Backend runs at :
+```
+http://127.0.0.1:8000
+```
+#### 2️⃣ Start Frontend
+```bash
+python -m streamlit run app.py
+```
+Backend runs at:
+```
+http://localhost:8501
+```
