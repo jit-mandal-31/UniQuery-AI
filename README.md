@@ -137,7 +137,7 @@ Create a .env file in the project root directory:
 ```
 OPENROUTER_API_KEY=your_openrouter_api_key
 ```
-## ▶️ How to Run the Project
+### ▶️ How to Run the Project
 
 ### 1️⃣ Start Backend
 ```bash
