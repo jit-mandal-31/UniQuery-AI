@@ -138,3 +138,8 @@ UniQuery AI handles this gracefully by filtering failed responses to maintain a 
 - Response summarization
 
 - Persistent chat storage
+---
+
+## 👨‍💻 Author
+Jit Mandal
+
