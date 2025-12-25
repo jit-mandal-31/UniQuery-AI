@@ -107,6 +107,11 @@ Backend runs at:
 http://localhost:8501
 ```
 ---
+## 🖥️ User Interface 
+
+![WhatsApp Image 2025-12-25 at 21 31 44_f7385fb2](https://github.com/user-attachments/assets/47dbb729-23b7-4025-997c-ef31cabe9af7)
+
+---
 
 ## 🎯 Use Cases
 
